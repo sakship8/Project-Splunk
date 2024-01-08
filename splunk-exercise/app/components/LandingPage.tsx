@@ -6,14 +6,15 @@ import { textStyle } from "./LandingPageStyle";
 import ToggleBar from "./ToggleBar";
 import Menu from "./Menu";
 import SearchForm from "./SearchForm";
+import { Data_Dictionary } from "./global/utils";
 
 function LandingPage() {
-  
+
   return (
     <>
       <div style={{ display: "flex", alignItems: "center" }}>
         <Image src={image} alt="Splunk Logo" width={200} height={110} />
-        <p style={textStyle}>Data Dictionary</p>
+        <p style={textStyle}>{Data_Dictionary}</p>
       </div>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <ToggleBar />

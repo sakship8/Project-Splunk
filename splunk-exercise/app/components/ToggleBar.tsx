@@ -10,8 +10,6 @@ export default function ColorToggleButton() {
     setSelectedToggle(event.target.value);
   };
 
-  console.log(selectedToggle);
-
   return (
     <ToggleButtonGroup
       value={selectedToggle}
@@ -19,7 +17,7 @@ export default function ColorToggleButton() {
       onChange={handleChange}
       aria-label="Platform"
     >
-      {options.map((option:any, index:any) => (
+      {options.map((option: any, index: any) => (
         <ToggleButton
           value={option}
           key={index}
@@ -32,7 +30,6 @@ export default function ColorToggleButton() {
             "&:hover": {},
             color: "#007AFF",
             width: "280px",
-            
           }}
         >
           {option}

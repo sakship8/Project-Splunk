@@ -15,7 +15,7 @@
     "@mui/material": "^5.15.3",
     "@splunk/react-ui": "^4.23.0",
     "next": "14.0.4",
-    "react": "^16.14.0",
+    "react": "^18.2.0",
     "react-dom": "^16.14.0",
     "styled-components": "^5.3.11"
   },
